@@ -1,0 +1,115 @@
+.nav {
+    width: 25%;
+
+    background-color: hwb(0deg 97% 3%);
+    box-shadow: 0 0 1px;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+    height: 100vh;
+
+    footer {
+        border-top: 1px solid #ccc;
+        text-align: center;
+        display: flex;
+        gap: .5rem;
+        align-items: center;
+        justify-content: center;
+        background-color: hwb(0deg 97% 3%);
+
+        height: 10%;
+
+        svg {
+            font-size: 1.4rem;
+        }
+    }
+
+    .search {
+        display: flex;
+        padding: 0 1.5rem;
+        justify-content: space-between;
+        align-items: center;
+        gap: .5rem;
+        border-bottom: 1px solid #ccc;
+        background-color: #fff;
+        height: 10%;
+
+        &__wrapper {
+            display: flex;
+            gap: .6rem;
+            align-items: center;
+            border-radius: 8px;
+            box-shadow: 0 0 2px;
+            width: 75%;
+            padding: 0 .5rem;
+
+            input {
+                padding: .5rem 0;
+                border-color: transparent;
+                outline: none;
+
+                &::placeholder {
+                    color: #ccc;
+                }
+            }
+
+            svg {
+                color: rgb(187, 187, 187);
+
+            }
+        }
+
+        button {
+            padding: .5rem;
+            border-color: transparent;
+            outline: none;
+            background-color: #fff;
+            box-shadow: 0 0 2px;
+            border-radius: 8px;
+            color: royalblue;
+            font-weight: 500;
+        }
+    }
+
+    nav {
+
+        overflow: scroll;
+        overflow-x: hidden;
+        height: 80%;
+        padding: .5rem 1.5rem;
+
+        ul {
+            list-style: none;
+            display: grid;
+            gap: 1rem;
+
+            a {
+                width: 100%;
+                display: inline-block;
+                padding: 1rem;
+                border-radius: 8px;
+                transition: all .4s linear;
+                
+                &:hover {
+                    
+                    background-color: royalblue;
+                    color: #fff;
+
+                }
+
+            }
+        }
+
+        &::-webkit-scrollbar {
+            display: block;
+            width: 2px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: royalblue;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@import '../../../styles/variables';
+@import '../../../styles/mediaqueries';
+
+.container {
+    max-width: $container-width-lg ;
+    margin: auto;
+}
+
+@include smallerDevice {
+    .container {
+        max-width: $container-width-sm ;
+    }
+    
+}
+
+@include tablet {
+    .container {
+        max-width: $container-width-md ;
+    }
+}
+
+@include largeDevice {
+    .container {
+        max-width: $container-width-lg ;
+    }
+}

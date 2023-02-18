@@ -1,0 +1,25 @@
+.contact {
+    display: flex;
+    gap: 1rem;
+
+    .contact__img {
+
+        border-radius: 8px;
+        overflow: hidden;
+
+        img {
+            border-radius: 8px;
+
+        }
+    }
+
+    p {
+        margin-bottom: .5rem;
+    }
+
+    .actions {
+        display: flex;
+        gap: 1rem;
+        margin: 2rem 0;
+    }
+}

@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Raleway&display=swap");
+/* ======= MEDIA QURIES ======== */
+/* for small devices */
+/* for medium devices */
+/* for large devices */
+/* ===== Colors   ===== */
+/* ===== Font and Typography  ===== */
+/* ===== Container width  ===== */
+/* ===== Section  ===== */
+/* =====  Font Weight  ===== */
+/* =====  Margins  ===== */
+/* =====  Z index  ===== */
+/* ===== Transition  ===== */
+/* ======= Layout ======== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Raleway&display=swap");
+/* ======= MEDIA QURIES ======== */
+/* for small devices */
+/* for medium devices */
+/* for large devices */
+/* ===== Colors   ===== */
+/* ===== Font and Typography  ===== */
+/* ===== Container width  ===== */
+/* ===== Section  ===== */
+/* =====  Font Weight  ===== */
+/* =====  Margins  ===== */
+/* =====  Z index  ===== */
+/* ===== Transition  ===== */
+/* ======= MEDIA QURIES ======== */
+/* for small devices */
+/* for medium devices */
+/* for large devices */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Raleway&display=swap");
+section {
+  padding: 4.5rem 0 1rem;
+}
+section h2 {
+  margin-bottom: 3rem;
+}
+
+.svg__color {
+  fill: var(--first-color);
+}
+.svg__blob {
+  fill: var(--first-color-light);
+}
+.svg__img {
+  width: 300px;
+  justify-self: center;
+}
+
+/* ======= Layout ======== */
+.container {
+  max-width: 75%;
+  margin: auto;
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    max-width: 90%;
+  }
+}
+@media screen and (min-width: 967px) {
+  .container {
+    max-width: 86%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 75%;
+  }
+}
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* ======= Buttons ======== */ /* ======= MEDIA QURIES ======== */
+/* for small devices */
+/* for medium devices */
+/* for large devices */
+/* ===== Colors   ===== */
+/* ===== Font and Typography  ===== */
+/* ===== Container width  ===== */
+/* ===== Section  ===== */
+/* =====  Font Weight  ===== */
+/* =====  Margins  ===== */
+/* =====  Z index  ===== */
+/* ===== Transition  ===== */
+.btn {
+  display: inline-block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0.5rem 1.5rem;
+  color: hsl(200deg, 90%, 60%);
+  border: 1px solid hsl(200deg, 90%, 60%);
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  height: 50px;
+}
+.btn:hover {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: hsl(200deg, 90%, 53%);
+  border-color: hsl(200deg, 90%, 53%);
+}
+
+.btn-primary {
+  background-color: hsl(200deg, 90%, 60%);
+  color: hsl(200deg, 90%, 19%);
+  border: none;
+}
+
+/* ======= MEDIA QURIES ======== */
+/* for small devices */
+/* for medium devices */
+/* for large devices */
+/* ======= Buttons ======== */ /* ======= MEDIA QURIES ======== */
+/* for small devices */
+/* for medium devices */
+/* for large devices */
+/* ===== Colors   ===== */
+/* ===== Font and Typography  ===== */
+/* ===== Container width  ===== */
+/* ===== Section  ===== */
+/* =====  Font Weight  ===== */
+/* =====  Margins  ===== */
+/* =====  Z index  ===== */
+/* ===== Transition  ===== */
+.text-white {
+  color: #fff;
+}
+
+.text-light {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.icon {
+  color: hsl(200deg, 90%, 60%);
+}
+
+.alert {
+  margin-bottom: 1rem;
+}
+.alert .success {
+  color: rgb(128, 199, 128);
+  border: 1px solid green;
+  background-color: rgba(0, 128, 0, 0.3);
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.alert .error {
+  color: rgb(177, 113, 113);
+  border: 1px solid rgb(153, 51, 51);
+  background-color: rgba(255, 0, 0, 0.3);
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  border: 0;
+  outline: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: hsl(200deg, 90%, 19%);
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.25rem;
+  color: hsl(200deg, 90%, 60%);
+}
+
+h3 {
+  font-size: 1.125rem;
+  color: hsl(200deg, 90%, 60%);
+}
+
+h5 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+small {
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+a {
+  color: hsl(200deg, 90%, 60%);
+}
+a:hover {
+  color: #fff;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media screen and (min-width: 967px) {
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  p,
+a {
+    font-size: 1rem;
+  }
+}
+img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: hsl(200deg, 90%, 60%);
+}/*# sourceMappingURL=index.css.map */
